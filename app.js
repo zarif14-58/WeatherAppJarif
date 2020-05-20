@@ -55,7 +55,7 @@ window.addEventListener("load", () => {
                 if(summary === "Clear"){
                     document.body.style.background = 'url("https://images.unsplash.com/photo-1531147646552-1eec68116469?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80") no-repeat center center';
                 }
-                if(summary === "Rainy"){
+                if(summary === "Possible Light Rain and Humid"){
                     document.body.style.background = 'url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/07ffd413-4f19-43ab-8534-5e2818a6beaf/d4llgix-2af381bb-efef-4680-b775-a72be922a796.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMDdmZmQ0MTMtNGYxOS00M2FiLTg1MzQtNWUyODE4YTZiZWFmXC9kNGxsZ2l4LTJhZjM4MWJiLWVmZWYtNDY4MC1iNzc1LWE3MmJlOTIyYTc5Ni5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.2L4duJ3vbqGmLQarpULCV10vwbSOiyQHk5SstLRehmA.jpg") no-repeat center center';
                 }
 
