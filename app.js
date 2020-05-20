@@ -57,6 +57,7 @@ window.addEventListener("load", () => {
                 }
                 if(summary === "Possible Light Rain and Humid"){
                     document.body.style.background = 'url("https://qrius.com/wp-content/uploads/2018/01/michal-grosicki-429160.jpg") no-repeat center center';
+                    document.body.style.backgroundSize = "cover";
                 }
 
             })
