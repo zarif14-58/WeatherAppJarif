@@ -56,7 +56,7 @@ window.addEventListener("load", () => {
                     document.body.style.background = 'url("https://images.unsplash.com/photo-1531147646552-1eec68116469?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80") no-repeat center center';
                 }
                 if(summary === "Possible Light Rain and Humid"){
-                    document.body.style.background = 'url("Green-Nature-Rain-Grass-Water-Drops-Wallpaper-1920x1080-768x432.jpg") no-repeat center center');
+                    document.body.style.background = 'url("https://qrius.com/wp-content/uploads/2018/01/michal-grosicki-429160.jpg") no-repeat center center';
                 }
 
             })
