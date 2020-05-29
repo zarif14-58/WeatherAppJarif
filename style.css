@@ -12,7 +12,7 @@ body {
     align-items: center;
     background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
     font-family: sans-serif;
-    color: #ff9999;
+    color: #fffaf0;
 }
 
 .location, .temperature{
