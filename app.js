@@ -23,6 +23,7 @@ window.addEventListener("load", () => {
                 return response.json();
             })
             .then(data => {
+                document.getElementById("loader").style.display = "none";
                 console.log(data)
                 const {temperature, summary, icon} = data.currently
                 temperatureDegree.textContent = temperature;
