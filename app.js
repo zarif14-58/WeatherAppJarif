@@ -7,6 +7,7 @@ window.addEventListener("load", () => {
     let locationTimezone = document.querySelector(".location-timezone");
     let temperatureSection = document.querySelector(".degree-section");
     const temperatureSpan = document.querySelector(".degree-section span");
+    document.getElementById("faren").style.display = "none";
 
 
     if(navigator.geolocation){
@@ -24,6 +25,7 @@ window.addEventListener("load", () => {
             })
             .then(data => {
                 document.getElementById("loader").style.display = "none";
+                document.getElementById("faren").style.display = "block";
                 console.log(data)
                 const {temperature, summary, icon} = data.currently
                 temperatureDegree.textContent = temperature;
