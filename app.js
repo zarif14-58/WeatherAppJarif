@@ -62,7 +62,10 @@ window.addEventListener("load", () => {
                     document.body.style.background = 'url("https://qrius.com/wp-content/uploads/2018/01/michal-grosicki-429160.jpg") no-repeat center center';
                     document.body.style.backgroundSize = "cover";
                 }
-
+                if(summary === "Humid"){
+                    document.body.style.background = 'url("humid-vs-dry-heat.jpg") no-repeat center center';
+                    document.body.style.backgroundSize = "cover";
+                }
             })
         })
 
