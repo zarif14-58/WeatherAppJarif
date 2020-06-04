@@ -58,7 +58,7 @@ window.addEventListener("load", () => {
                 if(summary === "Clear"){
                     document.body.style.background = 'url("https://images.unsplash.com/photo-1531147646552-1eec68116469?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80") no-repeat center center';
                 }
-                if(summary === "Possible Light Rain and Humid"){
+                if(summary === "Possible Light Rain and Humid" || summary === "Rain and Humid"){
                     document.body.style.background = 'url("https://qrius.com/wp-content/uploads/2018/01/michal-grosicki-429160.jpg") no-repeat center center';
                     document.body.style.backgroundSize = "cover";
                 }
